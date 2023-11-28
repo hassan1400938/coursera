@@ -2,83 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-html {
   font-family: "Comic Neue", cursive;
 }
-
-body {
-  padding: 100px 0;
+.food-nav {
+  padding: 0;
 }
-
-h1 {
-  text-align: center;
-}
-
-.row {
-  width: 100%;
-  padding: 0 5%;
-  margin: 50px 0;
-}
-
-.menu-item {
-  border: 2px solid black;
-  position: relative;
-  padding: 12px;
-  margin: 12px 0;
-}
-
-.menu-item--title {
-  display: inline;
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 40%;
-  padding: 8px;
-  text-align: center;
-  border-left: 2px solid black;
-  border-bottom: 2px solid black;
-}
-
-.menu-item--description {
-  margin-top: 48px;
-}
-
-.bg-pink {
-  background-color: pink;
-}
-
-.bg-maroon {
-  background-color: maroon;
-}
-
-.white {
-  color: white;
-}
-
-.bg-sandybrown {
-  background-color: sandybrown;
-}
-
-@media screen and (min-width: 992px) {
-  .col-lg-4 {
-    width: 33.33%;
-    float: left;
-    padding: 0 10px;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-  .col-md-6 {
-    width: 50%;
-    float: left;
-    padding: 0 10px;
-  }
-
-  .col-md-12 {
-    width: 100%;
-    float: left;
-    padding: 0 10px;
-  }
+.navbar {
+  padding: 0;
 }
